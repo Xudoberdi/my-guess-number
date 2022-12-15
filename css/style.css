@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: fantasy, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+  background: black;
+  color: #fff;
+  letter-spacing: 0.7px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+span {
+  text-align: center;
+  display: block;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #000;
+  background-color: #fff;
+  font-family: fantasy;
+  cursor: pointer;
+}
+
+.span {
+  font-size: 18px;
+}
+.img img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
